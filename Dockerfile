@@ -1,6 +1,7 @@
-# Pull base image 
-From tomcat:8-jre8 
+# Pull base image
+From tomcat:8-jre8
 
-# Maintaiiner Detals areb updated 
+# Maintaiiner Detals areb updated
 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY . **/*.war /usr/local/tomcat/webapps
+
